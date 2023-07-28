@@ -8,7 +8,7 @@ const Test = () => {
     const [query, setQuery] = useState('');
     const [movies, setMovies] = useState([]);
 
-    const API_KEY = '68be7fd6f087232ac07f8b8684c55e63';
+    const API_KEY = 'YOUR_API_KEY';
     const BASE_URL = 'https://api.themoviedb.org/3/search/movie';
     const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
